@@ -37,8 +37,8 @@ function Login() {
   };
 
   return (
-    <main className="flex min-h-[calc(100vh-66px)] items-start justify-center bg-slate-100 px-5 py-58px">
-      <div className="w-full max-w-415px overflow-hidden rounded-[15px] border border-slate-200 bg-white shadow-[0_2px_5px_rgba(15,23,42,0.12)]">
+    <main className="flex min-h-[calc(100vh-66px)] items-start justify-center bg-slate-100 px-5 py-[58px]">
+      <div className="w-full max-w-[415px] overflow-hidden rounded-[15px] border border-slate-200 bg-white shadow-[0_2px_5px_rgba(15,23,42,0.12)]">
         <div className="bg-[#4f3df5] px-6 py-6 text-white">
           <h1 className="text-[21px] font-bold">Login Authentication</h1>
 
@@ -58,7 +58,7 @@ function Login() {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   placeholder="Enter username"
-                  className="h-43px w-full rounded-lg border border-slate-300 px-4 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#4f3df5] focus:ring-2 focus:ring-indigo-100"
+                  className="h-[43px] w-full rounded-lg border border-slate-300 px-4 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#4f3df5] focus:ring-2 focus:ring-indigo-100"
                 />
               </div>
 
@@ -72,7 +72,7 @@ function Login() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Enter password"
-                  className="h-43px w-full rounded-lg border border-slate-300 px-4 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#4f3df5] focus:ring-2 focus:ring-indigo-100"
+                  className="h-[43px] w-full rounded-lg border border-slate-300 px-4 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-[#4f3df5] focus:ring-2 focus:ring-indigo-100"
                 />
               </div>
 
